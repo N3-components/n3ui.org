@@ -27,6 +27,8 @@
         <!-- main page styles -->
         <%- css(isIndex ? 'css/index' : 'css/page') %>
 
+        <%- (isIndex) ? "<link href='/css/docs.css' rel='stylesheet' type='text/css'>" : ""%>
+
         <!-- this needs to be loaded before guide's inline scripts -->
         <script src="/js/vue.min.js"></script>
         <script src="/js/jquery.min.js"></script>
@@ -38,7 +40,7 @@
             <a class="menu-button"></a>
             <a class="logo" href="/"></a>
         </div>
-        <%- partial('partials/header') %>
+        <%- !isIndex ? partial('partials/header') : '' %>
         <% if (!isIndex) { %>
             <div id="main" class="fix-sidebar">
                 <% if (page.blog_index) { %>
