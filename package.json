@@ -1,21 +1,23 @@
 {
-  "name": "n3Docs",
-  "version": "1.0.18",
-  "private": true,
-  "hexo": {
-    "version": "3.2.2"
+  "name": "n3ui.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "hexo": "^3.2.2",
-    "hexo-deployer-git": "0.1.0",
-    "hexo-generator-archive": "^0.1.4",
-    "hexo-generator-category": "^0.1.3",
-    "hexo-generator-feed": "^1.1.0",
-    "hexo-generator-index": "^0.2.0",
-    "hexo-generator-tag": "^0.2.0",
-    "hexo-renderer-ejs": "^0.2.0",
-    "hexo-renderer-marked": "^0.2.10",
-    "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N3-components/n3ui.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N3-components/n3ui.org/issues"
+  },
+  "homepage": "https://github.com/N3-components/n3ui.org#readme",
+  "devDependencies": {
+    "koa": "^1.2.4",
+    "koa-static": "^2.0.0"
   }
 }

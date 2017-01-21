@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>N3 - N3 components built with Vue.js</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+  <link rel="stylesheet" type="text/css" href="./assets/prism-coy.css">
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/docs.css">
+  <!-- <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon"> -->
+  <script type="text/javascript" src="./assets/jquery.js" ></script>
+</head>
+<body style="overflow: hidden;">
+  <div id="wrapper"></div>
+</body>
+<template id='template'>
+  <div>
+    <header-docs></header-docs>
+    <div class="bs-docs-header">
+      <n3-container>
+          <!-- <h1 >N3 <span class="small">components</span></h1> -->
+          <div class="docs-center">
+            <img class="docs-n3" src="./assets/img/n3.png">
+            <p style="margin-bottom: 10px;font-family: monospace;">Beautiful  Light  Strong</p>
+            <n3-button href="./v2.html" size="lg">Get Started</n3-button>
+            <br>
+            <n3-button href="https://github.com/N3-components/N3-components" target="_blank" >
+              <n3-icon type="github"></n3-icon>star</n3-button>
+          </div>
+      </n3-container> 
+      <ul class="bg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul> 
+    </div>
+  </div>
+</template>
+<script>
+window.requestAnimationFrame = (function(){
+  return  window.requestAnimationFrame       ||
+          window.webkitRequestAnimationFrame ||
+          window.mozRequestAnimationFrame    ||
+          function( callback ){
+            window.setTimeout(callback, 1000 / 60);
+          };
+})();
+</script>
+<script src="./static/v2/default.js"></script>
+<script>
+  
+</script>
+</html>
