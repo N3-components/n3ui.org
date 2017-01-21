@@ -3,4 +3,4 @@ var serve = require('koa-static');
 var app = koa();
 
 app.use(serve('./docs/'));
-app.listen(3000);
+app.listen(80);
